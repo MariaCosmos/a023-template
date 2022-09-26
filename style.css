@@ -2,3 +2,61 @@
     margin: 0;
     padding: 0;
 }
+
+.pai-header{
+    height: 6vh;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center; /*alinhou os itens vertigcalmente*/
+}
+
+footer{
+    border: 1px solid black;
+    height: 5vh;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
+}
+    
+.conteudo{
+    height: 92vh;
+    display: flex;
+    align-items: stretch;
+    
+}
+
+.conteudo1{
+    padding: 2vw;
+    border-right: 1px solid black;
+}
+
+.conteudo2{
+    padding: 2vw;
+}
+
+.conteudo3{
+    padding: 2vw;
+    border-left: 1px solid black;
+}
+
+img{
+    width: 80px;
+}
+
+figure{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8{
+    border: 1px solid black;
+    padding: 1px;
+}
